@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    display:block;
+    max-width: 100%;
+}
+header{
+   
+    padding: 30px 50px;
+    box-shadow: 0px 7px 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0px 0px 0px 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 70px;
+    
+    margin: 90px 0 0 0;
+}
+.banner img{
+    width: 50%;
+    margin: auto;
+}
+span{
+    color: blue;
+}
+.parent{
+    display:flex;
+}
+.item{
+    width: 50%;
+    padding: 0px 25px 0 25px;
+}
+.special{
+    text-align: right;
+}
+
+
+.item h2{
+    font-size: 40px;
+    color: black;
+}
+.special h1{
+    font-size: 40px;
+    color: red;
+}
+.item p{
+    color: black;
+}
+.service-section{
+    margin: 70px 30px;
+}
+.service{
+    display:flex;
+    gap: 22px;
+}
+.service-item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.service-item img{
+    height: 250px;
+}
+.sevice-item h4{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.sevice-item p{}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+footer h5{
+    font-size: 15px;
+}
